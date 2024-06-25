@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial BT(50, 51);    //blue tooth pin (tx, rx)
 void (*resetFunc)(void) = 0;  //declare reset function at address 0
-
+//use arduino uno
 // 前左馬達控制設定(front left)
 const byte FL_in1 = 12;  //In1
 const byte FL_in2 = 11;  //In2
